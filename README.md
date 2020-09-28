@@ -23,19 +23,21 @@ Please follow these instructions for further enlightenment.
 With your partner look through `start.rb` and `near_earth_objects.rb`
 
 - Discuss is this 'good' or 'bad' code? Why?
-
+>Bad. Does not adhere to SRP. Opportunity for refactoring to make class methods and helper methods.
 ---
 
 ### Identify the responsibilities (10 min)
 
 With your Partner, identify the different responsibilities that exist in each file.
 
-- Does this adhere to SRP?
+- Does this adhere to SRP?   
+>No. One large method instead of individual class methods.
 
-- How would you utilize encapsulation and abstraction to refactor this code?
+- How would you utilize encapsulation and abstraction to refactor this code?   
+>Both. Encapsulation of methods based on action and abstraction to have a parent class of methods.   
 
 - What tools/strategies could you utilize to make this code adhere to SRP?
-
+>Creating class methods and creatinga parent class.
 ---
 
 ### Refactor (1 hour)
